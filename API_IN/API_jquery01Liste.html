@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        // URL de l'API à appeler
+        const apiUrl = 'https://data.metropole-rouen-normandie.fr/api/explore/v2.1/catalog/datasets/eco-counter-sites/records?limit=100';
+
+        var listeApi = 
+        [
+            { 'ville' : 'Rouen', 'callBack': reussiteName, 'champs' : 'name', 'apiURL' : 'https://data.metropole-rouen-normandie.fr/api/explore/v2.1/catalog/datasets/eco-counter-sites/records?limit=100'},
+            { 'ville' : 'Rennes', 'callBack': reussiteNom,'champs' : 'nom', 'apiURL' : 'https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/etat-des-stations-le-velo-star-en-temps-reel/records?limit=60'},
+            { 'ville' : 'Lille', 'callBack': reussiteName,'champs' : 'nom', 'apiURL' : 'https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets/osm-fr-stations-de-velo-en-libre-service@babel/records?limit=60'}
+        ];
+
+        function effacer ( ) 
+        {
+            let div = document.getElementById( "maBelleDiv" );
+            div.innerHTML = '';
+        }
+
+        function reussiteNom ( data ) 
+        {
+            reussiteG ( data, 'nom' )
+        }
+
+        function reussiteName ( data ) 
+        {
+            reussiteG ( data, 'name' )
+        }
+
+
+        function reussiteG ( data, champs ) 
+        {
+            reussiteName // Traitement des données de la réponse
+
+            let name = data[ 'results' ][0][champs];
+            let results = data[ 'results' ];
+
+            let div = document.getElementById( "maBelleDiv" );
+
+            results.forEach( element => {
+                div.innerHTML += element[ champs ]+"<br>";
+            });
+
+            let divName = document.getElementById( "titre" );
+            divName.innerHTML = name;
+
+            console.log(data);    
+        }
+
+        function echec (error) 
+        {
+                    // Gestion des erreurs
+                    console.error('Erreur lors de la récupération des données:', error.statusText);
+        }
+
+
+
+        listeApi.forEach( ville => {
+            $.ajax(
+                {
+                    url: ville[ 'apiURL' ],
+                    method: 'GET',
+                    dataType: 'json', // Type de données attendu
+                    //async: false, // Option pour une requête synchrone
+                    success : ville['callBack'], 
+                    error : echec
+                }
+            );
+        });
+ 
+ 
+ 
+        console.log( "hello toto" );
+    </script>
+</head>
+<body>
+
+    <button onclick="effacer()">EFFACER</button>
+    <br>
+    <div id="titre"></div>
+    <br> 
+    <div id="maBelleDiv">
+    </div>
+    <br> 
+    <div id="maBelleDivDerror">
+    </div>
+
+
+</body>
+</html>

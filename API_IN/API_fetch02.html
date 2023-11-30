@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // URL de l'API à appeler
+        const apiUrl = 'https://data.metropole-rouen-normandie.fr/api/explore/v2.1/catalog/datasets/eco-counter-sites/records?limit=20';
+
+        // Appel de l'API avec fetch
+        fetch(apiUrl)
+        .then(response => {
+            // Vérification si la requête est réussie (status code 200-299)
+            if (!response.ok) {
+            throw new Error(`Erreur HTTP! Code: ${response.status}`);
+            }
+            // Conversion de la réponse JSON en objet JavaScript
+            return response.json();
+        })
+        .then(data => {
+            // Traitement des données de la réponse
+            console.log(data);
+        })
+        .catch(error => {
+            // Gestion des erreurs
+            console.error('Erreur lors de la récupération des données:', error.message);
+        });
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

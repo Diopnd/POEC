@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // CORS !!!
+        const data = null;
+
+        const xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+
+        xhr.addEventListener('readystatechange', function () {
+            if (this.readyState === this.DONE) {
+                console.log(this.responseText);
+            }
+        });
+
+        xhr.open('GET', 'https://localhost...');
+        xhr.setRequestHeader('X-RapidAPI-Key', 'SIGN-UP-FOR-KEY');
+        xhr.setRequestHeader('X-RapidAPI-Host', 'telize-v1.p.rapidapi.com');
+
+        xhr.send(data);    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

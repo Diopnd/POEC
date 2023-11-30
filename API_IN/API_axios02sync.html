@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        // Import d'axios (assurez-vous de l'installer avec npm install axios)
+        // const axios = require('axios');
+
+        // URL de l'API à appeler
+        const apiUrl = 'https://data.metropole-rouen-normandie.fr/api/explore/v2.1/catalog/datasets/eco-counter-sites/records?limit=20';
+
+        async function fetchData() {
+            try {
+                // Faire l'appel API avec axios en utilisant async/await
+                const response = await axios.get( apiUrl );
+
+                // Traiter les données de la réponse
+                console.log(response.data);
+            } catch (error) {
+                // Gérer les erreurs
+                console.error('Erreur lors de la récupération des données:', error.message);
+            }
+        }
+
+        // Appeler la fonction fetchData
+        fetchData();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

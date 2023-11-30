@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultation IMDb</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+  <h1>Consultation IMDb</h1>
+
+  <button onclick="searchIMDb('Inception')">Rechercher Inception</button>
+
+  <script>
+    //totoxy123 k_12345678
+    function searchIMDb(query) {
+      // Remplacez cette URL par l'URL réelle de l'API IMDb que vous utilisez
+      var apiUrl = 'https://imdb-api.com/en/API/Search/tt1375666/' + encodeURIComponent(query);
+
+      $.ajax({
+        url: apiUrl,
+        method: 'GET',
+        dataType: 'json',
+        success: function(response) {
+          console.log('Réponse de l\'API IMDb :', response);
+          // Traitez la réponse de l'API ici
+        },
+        error: function(error) {
+          console.error('Erreur lors de la requête à l\'API IMDb :', error);
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>

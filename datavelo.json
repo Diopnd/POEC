@@ -1,0 +1,265 @@
+{
+    "total_count": 28,
+    "results": [
+        {
+            "id": "100007115",
+            "name": "Eco 07 - Sente des Forrieres BOIS GUILLAUME",
+            "user_type": "V\u00e9lo",
+            "commune": "Bois-Guillaume",
+            "coordinates": {
+                "lon": 1.12455,
+                "lat": 49.48484
+            },
+            "interval": 60,
+            "counter": "X2H21080481",
+            "photourl": "https://filer.eco-counter-tools.com/file/d4/f779ad8e697b13b4dea4a933341aad0b6a4464ce04fbeed32cb16ecf351f6ed4/13594519656950.jpg"
+        },
+        {
+            "id": "100007117",
+            "name": "Eco 09 - Avenue des Canadiens GRAND QUEVILLY",
+            "user_type": "V\u00e9lo",
+            "commune": "Saint-\u00c9tienne-du-Rouvray",
+            "coordinates": {
+                "lon": 1.06419,
+                "lat": 49.40027
+            },
+            "interval": 60,
+            "counter": "X2I22032462",
+            "photourl": "https://filer.eco-counter-tools.com/file/31/3d033f12f5f67eee98393b2deca4f7aa51a403d7518a8c522947453096bf8431/X2I16080393_20211223100621.jpg"
+        },
+        {
+            "id": "100018293",
+            "name": "Eco 11 - Rue Petites Eaux du Robec ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.12737,
+                "lat": 49.43898
+            },
+            "interval": 60,
+            "counter": "X2H22042904",
+            "photourl": "https://filer.eco-counter-tools.com/file/7c/3f7c75fdbe83aa08732e6d12e22d7fa35a3105f44223d183b43ccb0c0970a57c/X2I14116749_20211222161151.jpg"
+        },
+        {
+            "id": "100033300",
+            "name": "Eco 16 - Quai Pierre Corneille ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.094459,
+                "lat": 49.437748
+            },
+            "interval": 60,
+            "counter": "XTH17052118",
+            "photourl": "https://filer.eco-counter-tools.com/file/9d/b9f344238d7e45f64822128bed67bf049e8264c8eb4e7272e6923a66127f399d/14944238309930.jpg"
+        },
+        {
+            "id": "100048215",
+            "name": "Eco 18 - Avenue Jacques Cartier ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.0868,
+                "lat": 49.43589
+            },
+            "interval": 60,
+            "counter": "X2H21070194",
+            "photourl": "https://filer.eco-counter-tools.com/file/b8/2670943803e57566f3a9fcd76eb25b5e26b80fb797075cdae24548daedebcdb8/15451362549500.jpg"
+        },
+        {
+            "id": "300028856",
+            "name": "Eco 21 - Rue Grand Pont ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.092819,
+                "lat": 49.439597
+            },
+            "interval": 15,
+            "counter": "CAI0DECC2A1",
+            "photourl": "https://filer.eco-counter-tools.com/file/70/29406203921f326c16444736b2ebdf08287625f9f763dd1159bd4beaa9edf470/Capture d__cran 2023-05-09 155559.png?filename=Capture d\u2019\u00e9cran 2023-05-09 155559.png"
+        },
+        {
+            "id": "300033641",
+            "name": "Eco 23 - Pont Jeanne d'Arc ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.08807,
+                "lat": 49.437928
+            },
+            "interval": 15,
+            "counter": "RAD0003CE2E",
+            "photourl": "https://filer.eco-counter-tools.com/file/0e/da9edcb391430ab535f27b24a8b56ff410e61d11b2ce3f3188d4f26147ac4a0e/Capture d__cran 2023-06-29 165822.png?filename=Capture d\u2019\u00e9cran 2023-06-29 165822.png"
+        },
+        {
+            "id": "300033642",
+            "name": "Eco 24 - Pont Corneille ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.095028,
+                "lat": 49.435649
+            },
+            "interval": 15,
+            "counter": "RAD0003CE2F",
+            "photourl": "https://filer.eco-counter-tools.com/file/67/18a1c81a1960943e9fcb7a3d32b994ec529cd7535309c7d9fd24d9e7b358ad67/Capture d__cran 2023-06-29 170203.png?filename=Capture d\u2019\u00e9cran 2023-06-29 170203.png"
+        },
+        {
+            "id": "300035455",
+            "name": "Eco 27 - Blvd de l'Europe ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.094733,
+                "lat": 49.428725
+            },
+            "interval": 15,
+            "counter": "COM23060707",
+            "photourl": "https://filer.eco-counter-tools.com/file/34/024013d41da215d4c3fb463420941740c81dabf5c1c33615a783eb6972dad734/IMG_4899.jpg"
+        },
+        {
+            "id": "100005527",
+            "name": "Eco 02 - Chemin du Halage SOTTEVILLE",
+            "user_type": "V\u00e9lo",
+            "commune": "Sotteville-l\u00e8s-Rouen",
+            "coordinates": {
+                "lon": 1.11105,
+                "lat": 49.4155
+            },
+            "interval": 60,
+            "counter": "X2H22084005",
+            "photourl": "https://filer.eco-counter-tools.com/file/a4/a2b202441b2b7af731a0025bf8db7f7966e0c4af28b407df54e07e8056dd7ca4/ECO09123570_20211012121549.jpg"
+        },
+        {
+            "id": "100019265",
+            "name": "Eco 04 - Z\u00e9nith GRAND QUEVILLY",
+            "user_type": "V\u00e9lo",
+            "commune": "Petit-Couronne",
+            "coordinates": {
+                "lon": 1.05432,
+                "lat": 49.38941
+            },
+            "interval": 60,
+            "counter": "X2H19070425",
+            "photourl": "https://filer.eco-counter-tools.com/file/f1/c9dc926ddcf33bc5a5abf6e9d77c0a9aa8f68b1058982f05563c09039d06ccf1/X2I15017176_20211223095118.jpg"
+        },
+        {
+            "id": "100033301",
+            "name": "Eco 15 - Chemin du Halage ELBEUF",
+            "user_type": "V\u00e9lo",
+            "commune": "Caudebec-l\u00e8s-Elbeuf",
+            "coordinates": {
+                "lon": 1.02963,
+                "lat": 49.29275
+            },
+            "interval": 60,
+            "counter": "X2H22073825",
+            "photourl": "https://filer.eco-counter-tools.com/file/59/a116aba667122216d9e0c5f92f6bad38a69efabd8a0877f065397ab3b8088c59/X2I21025206_20220103143235.jpg"
+        },
+        {
+            "id": "100037866",
+            "name": "Eco 17 - Boulevard Gambetta ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.08807,
+                "lat": 49.43931
+            },
+            "interval": 60,
+            "counter": null,
+            "photourl": "https://filer.eco-counter-tools.com/file/29/908a49ae3239c0f18fff4c3703b7811d4063499bee4b83d9fa8b8616f5e44c29/14951858247180.jpg"
+        },
+        {
+            "id": "100057696",
+            "name": "Eco 03 - Pont Boieldieu ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.09039,
+                "lat": 49.4362
+            },
+            "interval": 60,
+            "counter": "X2I19121627",
+            "photourl": "https://filer.eco-counter-tools.com/file/e3/47360926b37fd5a9c828e57be8228fd9c6104f22ef7ba1c81e47cab98ac2c9e3/X2I19121627_20211222162527.jpg"
+        },
+        {
+            "id": "100057697",
+            "name": "Eco 10 - Pont Guillaume Nord ROUEN",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.08224,
+                "lat": 49.44168
+            },
+            "interval": 60,
+            "counter": "X2I19121628",
+            "photourl": "https://filer.eco-counter-tools.com/file/e9/1a5198da75bb577f24a80ae975eeeb4ff24e65c265d9097611d6a071c3b964e9/15802063946590.jpg"
+        },
+        {
+            "id": "300033014",
+            "name": "Eco 22 - Rte de Paris FRANQUEVILLE",
+            "user_type": "V\u00e9lo",
+            "commune": "Franqueville-Saint-Pierre",
+            "coordinates": {
+                "lon": 1.184115,
+                "lat": 49.395449
+            },
+            "interval": 15,
+            "counter": "RAD0003CE34",
+            "photourl": "https://filer.eco-counter-tools.com/file/f6/3a0ccbb8ac38ce39447d57e420272b9a5ba2d75b537dd88dd139b1c372713bf6/Capture d__cran 2023-06-12 120543.png?filename=Capture d\u2019\u00e9cran 2023-06-12 120543.png"
+        },
+        {
+            "id": "300037150",
+            "name": "Eco 00 - Site Exp\u00e9rimental",
+            "user_type": "V\u00e9lo",
+            "commune": "Rouen",
+            "coordinates": {
+                "lon": 1.088072,
+                "lat": 49.439309
+            },
+            "interval": 60,
+            "counter": "X2I21111002",
+            "photourl": "https://filer.eco-counter-tools.com/file/3f/789dcf37c2616def89a1c9cc3acf11549cc601a8b92c9cd63dfdfd879583353f/X2I21111002_20231103114309.jpg"
+        },
+        {
+            "id": "100005524",
+            "name": "Eco 05 - Rue Boucicault MONT ST AIGNAN",
+            "user_type": "V\u00e9lo",
+            "commune": "Mont-Saint-Aignan",
+            "coordinates": {
+                "lon": 1.08164,
+                "lat": 49.47629
+            },
+            "interval": 60,
+            "counter": "X2H22042725",
+            "photourl": "https://filer.eco-counter-tools.com/file/88/1dd7ab0b4af019f27c9bd695d276a624f06345df230eda04aee98dd294d54688/13559956416460.jpg"
+        },
+        {
+            "id": "100005525",
+            "name": "Eco 06 - Rue de la Prevotiere BOIS GUILLAUME",
+            "user_type": "V\u00e9lo",
+            "commune": "Bihorel",
+            "coordinates": {
+                "lon": 1.12962,
+                "lat": 49.46501
+            },
+            "interval": 60,
+            "counter": "X2H22042724",
+            "photourl": "https://filer.eco-counter-tools.com/file/3f/517ff9532774623158c889072d39c50466d75382c0f8ccd996f3643f0c1ea93f/13559956233980.jpg"
+        },
+        {
+            "id": "100007116",
+            "name": "Eco 08 - Avenue de l'Europe MONT ST AIGNAN",
+            "user_type": "V\u00e9lo",
+            "commune": "Mont-Saint-Aignan",
+            "coordinates": {
+                "lon": 1.10022,
+                "lat": 49.47727
+            },
+            "interval": 60,
+            "counter": "X2H21080482",
+            "photourl": "https://filer.eco-counter-tools.com/file/7d/83351f3d0923ac2b2412cb3fab54e4318aac15433ddf945382bf672a62ac1c7d/13594522270460.jpg"
+        }
+    ]
+}
